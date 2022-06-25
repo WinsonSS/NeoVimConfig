@@ -1,0 +1,6 @@
+vim.keymap.set("i", "jj", "<Esc>")
+vim.keymap.set("n", "<Leader>w", "<Cmd>w<CR>")
+vim.keymap.set("n", "<Leader>q", "<Cmd>q<CR>")
+vim.keymap.set({"n", "v"}, "<Leader>c", "\"+y")
+vim.keymap.set("n", "<Leader>v", "i<S-Insert><Esc>")
+vim.keymap.set("i", "<C-v>", "<Esc>pa")
