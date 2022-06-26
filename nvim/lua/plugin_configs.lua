@@ -1,4 +1,4 @@
----- nightfox config Start
+---- nightfox 配置 Start
 -- Default options
 require('nightfox').setup({
   options = {
@@ -33,4 +33,8 @@ require('nightfox').setup({
 
 -- setup must be called before loading
 vim.cmd("colorscheme nightfox")
----- nightfox config End
+---- nightfox 配置 End
+
+
+-- Defx配置 Start
+-- Defx配置 End
