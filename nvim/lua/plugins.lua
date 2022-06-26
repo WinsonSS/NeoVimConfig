@@ -9,8 +9,20 @@ return require('packer').startup(function()
 
 	-- nightfox 主题
   	use "EdenEast/nightfox.nvim"
-	use {
+	-- 下方状态栏
+	use
+	{
 	  'nvim-lualine/lualine.nvim',
 	  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+	}
+	-- 文件管理工具
+	use
+	{
+		"Shougo/defx.nvim",
+		requires =
+		{
+			"kristijanhusak/defx-icons", -- dexf文件管理图标支持
+			"t9md/vim-choosewin", -- 窗口选择器，可以让defx使用i打开文件
+		}
 	}
 end)
