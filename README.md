@@ -2,7 +2,7 @@
 
 使用步骤：
 
-1. 配置环境变量XDG_CONFIG_HOME和XDG_DATA_HOME到仓库所在文件夹,配置nvim所在目录到环境变量PATH
+1. 配置环境变量XDG_CONFIG_HOME和XDG_DATA_HOME到仓库所在文件夹,配置nvim目录到环境变量PATH
 
 2. 下载packer包，作为包管理工具：[packer.nvim](https://github.com/wbthomason/packer.nvim)
    
