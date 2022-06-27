@@ -6,7 +6,7 @@
 
 2. 下载packer包，作为包管理工具：[packer.nvim](https://github.com/wbthomason/packer.nvim)
    
-   > Windows——PowerShell
-   > git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+   > Windows——PowerShell：
+   > git clone https://github.com/wbthomason/packer.nvim "$env:XDG_CONFIG_HOME\nvim-data\site\pack\packer\start\packer.nvim"
 
 3.  随便用nvim打开一个文件，调用:PackerUpdate更新包
