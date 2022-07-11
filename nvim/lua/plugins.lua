@@ -10,11 +10,11 @@ return require('packer').startup(function()
     -- nightfox 主题
     use "EdenEast/nightfox.nvim"
     -- 下方状态栏
-    use
-    {
-      'nvim-lualine/lualine.nvim',
-      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    --use
+    --{
+    --  'nvim-lualine/lualine.nvim',
+    --  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    --}
     -- 文件管理工具
     use
     {
